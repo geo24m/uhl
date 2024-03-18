@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                             <div class="slider-content slider-content-2 slider-animated-2 text-center">
-                                <h1 class="animated">Bienvenu à l'Université Henri Lopes</h1>
+                                <h1 class="animated">Bienvenue à l'Université Henri Lopes de {{ env('APP_VILLE', 'Brazzaville') }} </h1>
                                 <p class="animated">Nous continuons là où les autres s'arrêtent ! Apprendre pour entreprendre, c'est la clé du succès.</p>
                                 <div class="slider-btn">
                                     <a class="animated default-btn btn-green-color" href="{{ route('about')}}">A propos de nous</a>
