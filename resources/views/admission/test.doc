@@ -1,0 +1,20 @@
+    <ScrollView 
+        style={styles.main_container}
+        contentContainerStyle={styles.contentContainer}
+        showsVerticalScrollIndicator={false}
+    >
+        <View style={styles.headerContainer}>
+            <Image 
+                source={{uri: "https://medireservation.com/uploads/" + this.state.prestataire.avatar}}
+                style={styles.prestatairePreviewImage}
+            />
+            <Text style={styles.prestataireInfoFullName}>{fullName}</Text>
+            <Text style={styles.prestataireInfoTitle}>{this.state.prestataire.etablissements.map(etablissement => etablissement.address +', '+ etablissement.libele)}</Text>
+            <Text style={styles.prestataireInfoTitle}>{this.state.prestataire.specialites.map(specialite => specialite.libele)}</Text>
+        </View>
+        <View style={styles.sectionContainer}>
+            <Text style={styles.sectionTitle}>Details</Text>
+            
+            <Text style={styles.aboutText}>{this.state.prestataire.user.description}</Text>
+        </View>
+    </ScrollView>
