@@ -7,7 +7,7 @@
 <div class="teacher-area pt-130 pb-100">
     <div class="container">
         <div class="section-title-3 section-shape-hm2-1 text-center mb-100">
-            <h2>Equipe dirigeante <span>UHL Brazzaville</span></h2>
+            <h2>Equipe <span>Dirigeante</span></h2>
         </div>
         <div class="custom-row">
             <div class="custom-col-5 ">

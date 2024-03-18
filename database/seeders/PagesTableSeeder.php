@@ -263,7 +263,7 @@ class PagesTableSeeder extends Seeder
                 'body'      => '',
                 'image'            => 'pages/page1.jpg',
                 'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_keywords'    => 'Enseignement supérieu, Université Henri Lopes, Éducation, Formation académique, Développement personnel, Excellence académique, Croissance économique',
                 'status'           => 'ACTIVE',
             ])->save();
         }
@@ -274,12 +274,12 @@ class PagesTableSeeder extends Seeder
         if (!$page->exists) {
             $page->fill([
                 'author_id' => 0,
-                'title'     => 'Accueil',
+                'title'     => 'Notre université',
                 'excerpt'   => "Créé en 2002 l'Université Henri Lopes est un établissement privé d'enseignement supérieur agrée par l'État.",
-                'body'      => "Face aux faiblesses de tous ordre de l’enseignement supérieur, le rôle du secteur privé pour appuyer le secteur public dans l’amélioration du rendement est devenu incontournable. Cela justifie les dispositions prises Par le Docteur Jean Didier ELONGO, soucieux d’apporter sa participation au développement de l’enseignement supérieur, vecteur multiplicateur de croissance pour le pays et moyen efficace de de lutte contre la pauvreté. C’est dans ce contexte que l’université Henri Lopes à vue le jour. ",
+                'body'      => "Face aux défis persistants de l'enseignement supérieur, le partenariat entre le secteur privé et public est devenu impératif pour améliorer les performances. Dans cette optique, le Dr Jean Didier ELONGO a pris l'initiative de contribuer au développement de l'éducation supérieure, reconnue comme un levier essentiel de croissance nationale et de lutte contre la pauvreté. Ainsi, l'établissement de l'université Henri Lopes est le fruit de cet engagement, unissant les forces de l'innovation et de l'excellence pour façonner un avenir prometteur.",
                 'image'            => 'pages/page2.jpg',
-                'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_description' => "Plongez dans l'excellence académique de l'université Henri Lopes, où l'innovation, la recherche de pointe et l'engagement social sont au cœur de notre mission éducative. Découvrez nos programmes de formation, notre environnement d'apprentissage dynamique et nos opportunités de développement personnel, propulsant nos étudiants vers un avenir prometteur. Rejoignez-nous pour faire partie d'une communauté universitaire passionnée, dédiée à l'épanouissement intellectuel et professionnel.",
+                'meta_keywords'    => 'Enseignement supérieur, Keyword2',
                 'status'           => 'ACTIVE',
             ])->save();
         }
@@ -295,7 +295,7 @@ class PagesTableSeeder extends Seeder
                 'body'      => '',
                 'image'            => 'pages/page3.jpg',
                 'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_keywords'    => "Programme d'études, Recherche universitaire, Débouchés professionnels, Formation académique",
                 'status'           => 'ACTIVE',
             ])->save();
         }
@@ -311,7 +311,7 @@ class PagesTableSeeder extends Seeder
                 'body'      => '',
                 'image'            => 'pages/page1.jpg',
                 'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_keywords'    => 'Communauté étudiante, Engagement social',
                 'status'           => 'ACTIVE',
             ])->save();
         }
@@ -323,11 +323,11 @@ class PagesTableSeeder extends Seeder
             $page->fill([
                 'author_id' => 0,
                 'title'     => 'Admission',
-                'excerpt'   => "Remplir le formulaire pour votre pré-inscription",
+                'excerpt'   => "Découvrez comment rejoindre notre université Henri Lopes. Informations sur les critères d'admission, les étapes à suivre et les dates limites. Préparez-vous à débuter votre parcours académique avec nous.",
                 'body'      => '',
                 'image'            => 'pages/page1.jpg',
-                'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_description' => "Découvrez le processus d'admission à l'université Henri Lopes, où nous vous offrons une opportunité d'accéder à une éducation de qualité dans un environnement stimulant. Obtenez toutes les informations nécessaires sur les critères d'admission, les étapes à suivre et les dates limites pour rejoindre notre communauté universitaire dynamique. Préparez-vous à faire le premier pas vers un avenir brillant en démarrant votre parcours académique avec nous.",
+                'meta_keywords'    => 'Éducation, Formation académique',
                 'status'           => 'ACTIVE',
             ])->save();
         }
@@ -339,11 +339,11 @@ class PagesTableSeeder extends Seeder
             $page->fill([
                 'author_id' => 0,
                 'title'     => 'Equipe dirigeante',
-                'excerpt'   => "Organigramme",
+                'excerpt'   => "Explorez la vision et l'engagement de notre équipe dirigeante, déterminée à inspirer l'excellence et à façonner un avenir prometteur pour notre université et ses étudiants.",
                 'body'      => '',
                 'image'            => 'pages/page2.jpg',
-                'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_description' => "Découvrez l'équipe dirigeante dévouée de l'université Henri Lopes, des leaders visionnaires engagés à guider notre institution vers l'excellence académique. Rencontrez nos dirigeants, découvrez leurs parcours inspirants et leur passion pour l'innovation éducative. Ensemble, nous façonnons l'avenir de l'éducation et inspirons nos étudiants à atteindre de nouveaux sommets.",
+                'meta_keywords'    => "Équipe dirigeante, Dirigeants, Président de l'université, Vice-président, Doyens, Administration universitaire, Université Henri Lopes",
                 'status'           => 'ACTIVE',
             ])->save();
         }
@@ -354,12 +354,12 @@ class PagesTableSeeder extends Seeder
         if (!$page->exists) {
             $page->fill([
                 'author_id' => 0,
-                'title'     => 'Contact',
-                'excerpt'   => "Nous contacter.",
+                'title'     => 'Nous contacter',
+                'excerpt'   => "Besoin d'aide ou de renseignements ? Contactez-nous ! Notre équipe est là pour vous assister dans votre parcours vers l'université Henri Lopes.",
                 'body'      => '',
                 'image'            => 'pages/page2.jpg',
-                'meta_description' => 'Yar Meta Description',
-                'meta_keywords'    => 'Keyword1, Keyword2',
+                'meta_description' => "Besoin d'aide ou de renseignements ? Contactez-nous ! Notre équipe est là pour vous assister dans votre parcours vers l'université Henri Lopes.",
+                'meta_keywords'    => "Contact, Université Henri Lopes, Assistance étudiante, Heures d'ouverture, Demande d'admission, Formulaire de contact, Demande de renseignements",
                 'status'           => 'ACTIVE',
             ])->save();
         }

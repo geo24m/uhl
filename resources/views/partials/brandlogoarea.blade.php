@@ -1,4 +1,4 @@
-<div class="brand-logo-area pt-130 pb-130">
+<div class="brand-logo-area pb-130">
     <div class="container">
         <div class="brand-logo-active owl-carousel">
             <div class="single-brand-logo">

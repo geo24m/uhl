@@ -258,7 +258,7 @@
             <p>Voici quelque listing de nos statistiques et de nos appréciations<br> tant localement et internationalement.</p>
         </div>
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-one count-white">
                     <div class="count-img">
                         <img src="assets/img/icon-img/funfact-1.png" alt="">
@@ -269,29 +269,29 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-two count-white">
                     <div class="count-img">
                         <img src="assets/img/icon-img/funfact-2.png" alt="">
                     </div>
                     <div class="count-content">
-                        <h2 class="count">20</h2>
+                        <h2 class="count">400</h2>
                         <span>Diplômés</span>
                     </div>
                 </div>
-            </div> --}}
-            {{-- <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
+            </div> 
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-three count-white">
                     <div class="count-img">
                         <img src="assets/img/icon-img/funfact-1.png" alt="">
                     </div>
                     <div class="count-content">
-                        <h2 class="count">5</h2>
+                        <h2 class="count">50</h2>
                         <span>Primés</span>
                     </div>
                 </div>
-            </div> --}}
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-four count-white">
                     <div class="count-img">
                         <img src="assets/img/icon-img/funfact-2.png" alt="">

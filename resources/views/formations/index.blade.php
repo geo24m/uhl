@@ -6,11 +6,12 @@
 
 @include('partials.breadcrumb')
 
-<div class="course-area bg-img pt-130">
+@foreach ($cycles as $cycle)
+<div class="course-area bg-img {{ $cycle->name === 'Licence' ? 'pt-130' : '' }}">
     <div class="container">
         <div class="section-title mb-75 course-mrg-small">
-            <h2><span>UHL</span> Brazzaville</h2>
-            <p>Liste des formations </p>
+            <h2><span>Cycle</span> {{ $cycle->name }}</h2>
+            <p>{!! wordwrap($cycle->description, 75, "<br>", true) !!}</p>
         </div>
         <div class="course-slider-active-3">
             @foreach ($formations as $formation)
@@ -18,20 +19,8 @@
             @endforeach
         </div>
     </div>
-</div>   
-<div class="course-area bg-img pt-130">
-    <div class="container">
-        <div class="section-title mb-75 course-mrg-small">
-            <h2><span>UHL</span> Pointe-Noire</h2>
-            <p>Liste des formations </p>
-        </div>
-        <div class="course-slider-active-3">
-            @foreach ($formations as $formation)
-            @include('formations._card')
-            @endforeach
-        </div>
-    </div>
-</div>   
+</div> 
+@endforeach    
 
 @include('partials.brandlogoarea')
 
