@@ -294,7 +294,7 @@ class PagesTableSeeder extends Seeder
                 'excerpt'   => "Nous facilitons l’insertion des étudiants vers le monde de l'emploi en leur offrant une gamme des options ou filières du monde moderne.",
                 'body'      => '',
                 'image'            => 'pages/page3.jpg',
-                'meta_description' => 'Yar Meta Description',
+                'meta_description' => "Nous facilitons l’insertion des étudiants vers le monde de l'emploi en leur offrant une gamme des options ou filières du monde moderne.",
                 'meta_keywords'    => "Programme d'études, Recherche universitaire, Débouchés professionnels, Formation académique",
                 'status'           => 'ACTIVE',
             ])->save();

@@ -37,7 +37,7 @@
                     <div class="tab-content jump">
                         <div class="tab-pane active" id="course-details-1">
                             <div class="over-view-content">
-                                <h4>Année scolaire 2021 - 2022</h4>
+                                <h4>Année Académique 2023 - 2024</h4>
                                 <h5>La composition du dossier comprend :</h5>
                                 <div class="over-view-list">
                                     <div class="sin-over-view-list">
@@ -45,7 +45,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Un extrait d'acte de naissance,</p>
+                                            <p>Un (1) extrait d'acte de naissance,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -53,7 +53,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Trois photos Format identité couleur,</p>
+                                            <p>Trois (3) photos format identité en couleur,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -61,7 +61,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Une Chemise cartonée,</p>
+                                            <p>Une (1) Chemise cartonée,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -69,7 +69,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Une rame de papier A4 pour les ancien etudian et A3 pour les nouveaux,</p>
+                                            <p>Un (1) paquet de Ram A4 pour les anciens étudiants et A3 pour les nouveaux,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -77,7 +77,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Un paquet de marker schneider non permanent,</p>
+                                            <p>Un (1) paquet de dix (10) marker Schneider ou Bic non permanent,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -85,7 +85,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Un enveloppe kaki format A4,</p>
+                                            <p>Un (1) enveloppe kaki format A4,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -93,7 +93,7 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Les résultats de l'années précédente ou la photocopie legalisé du BAC ou diplome équivalent,</p>
+                                            <p>Les résultats de l'année précédente avec l'attestation de passage,</p>
                                         </div>
                                     </div>
                                     <div class="sin-over-view-list">
@@ -101,33 +101,91 @@
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
-                                            <p>Frais d'inscription plus un mois de garentie,</p>
+                                            <p>Les frais d'inscription plus un mois (1) de garantie,</p>
                                         </div>
                                     </div>
-                                    <div class="sin-over-view-list">
+                                    <!-- <div class="sin-over-view-list">
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Une boite de craie blanche,</p>
                                         </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
+                                    </div> -->
+                                    <!-- <div class="sin-over-view-list">
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Frais du Ministere 10.000 FCFA,</p>
                                         </div>
-                                    </div>
-                                    <div class="sin-over-view-list">
+                                    </div> -->
+                                    <!-- <div class="sin-over-view-list">
                                         <div class="course-list-icon">
                                             <i class="fa fa-check"></i> .
                                         </div>
                                         <div class="course-list-content">
                                             <p>Assurence 1.000 FCFA.</p>
                                         </div>
+                                    </div> -->
+                                    @if(env('APP_VILLE') == "Pointe-Noire")
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>Photocopie de l'attestation de réussite du BAC légalisée ou diplôme équivalent</p>
+                                        </div>
                                     </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>Une (1) chemise cartonnée.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>Chemise à sangle</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>Frais d'inscription annuels: 20000 Frs CFA.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>La carte d'étudiant 5000F.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>Mutuelle des etudiants 2500F .</p>
+                                        </div>
+                                    </div>
+                                    <div class="sin-over-view-list">
+                                        <div class="course-list-icon">
+                                            <i class="fa fa-check"></i> .
+                                        </div>
+                                        <div class="course-list-content">
+                                            <p>Internet 2500F.</p>
+                                        </div>
+                                    </div>
+                                    @endif
                                 </div>
                                 <!--
                                 <ol>
@@ -144,7 +202,7 @@
                                     <li>Assurence 1.000 FCFA</li>
                                 </ol>
                             -->
-                                <p>L’inscription est annuelle. Celle à caractère pédagogique s’effectue lors de l’inscription administrative.</p>
+                                <p class="lead text-bold">L’inscription est annuelle. Celle à caractère pédagogique s’effectue lors de l’inscription administrative.</p>
                             </div>
                         </div>
                         <div class="tab-pane" id="course-details-2">

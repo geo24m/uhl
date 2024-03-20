@@ -5,7 +5,7 @@
 @section('content')
     <div class="slider-area">
         <div class="slider-active owl-carousel">
-            <div class="single-slider slider-height-2 bg-img align-items-center d-flex slider-overlay2-1 default-overlay" style="background-image:url({{ asset('assets/img/slider/bg-img.jpg') }});">
+            <div class="single-slider slider-height-2 bg-img align-items-center d-flex slider-overlay2-1 default-overlay" style="background-image:url({{ asset('assets/img/slider/6.jpg') }});">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-12 col-sm-12">
@@ -21,32 +21,32 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height-2 align-items-center d-flex bg-img slider-overlay2-2 default-overlay" style="background-image:url(assets/img/slider/4.jpg);">
+            <div class="single-slider slider-height-2 align-items-center d-flex bg-img slider-overlay2-1 default-overlay" style="background:url(assets/img/slider/5.jpg) no-repeat  50% 25% / cover;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                             <div class="slider-content slider-content-2 slider-animated-2 text-center">
-                                <h1 class="animated">Welcome to Glaxdu</h1>
-                                <p class="animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                                <h1 class="animated">Investir en faveur des femmes</h1>
+                                <p class="animated">On ne dira jamais assez sur cette date du 08 Mars. UHL par cette occasion met en valeur ces Étudiantes dans la prise de parole en public. Pour aborder le Thème Général ainsi que les sous thèmes choisis. L'entrée est accessible à tous le monde. ( Étudiants, professeurs, Hommes et femmes politiques, enseignants (es) , élèves et les ONG)</p>
                                 <div class="slider-btn">
-                                    <a class="animated default-btn btn-green-color" href="about-us.html">ABOUT US</a>
-                                    <a class="animated default-btn btn-white-color" href="contact.html">CONTACT US</a>
+                                    <a class="animated default-btn btn-green-color" href="{{ route('about')}}">A propos de nous</a>
+                                    <a class="animated default-btn btn-white-color" href="{{ route('contact')}}">Contactez-nous</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height-2 align-items-center d-flex bg-img slider-overlay2-3 default-overlay" style="background-image:url(assets/img/slider/bg4.jpg);">
+            <div class="single-slider slider-height-2 align-items-center d-flex bg-img slider-overlay2-2 default-overlay" style="background-image:url(assets/img/slider/7.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                             <div class="slider-content slider-content-2 slider-animated-2 text-center">
-                                <h1 class="animated">Welcome to Glaxdu</h1>
-                                <p class="animated">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+                                <h1 class="animated">Inscription toujours disponibles</h1>
+                                <p class="animated">Ce 04 Mars 2024 nous avons le plaisir de vous informer que les inscriptions en Droit sont toujours disponibles à UHL</p>
                                 <div class="slider-btn">
-                                    <a class="animated default-btn btn-green-color" href="about-us.html">ABOUT US</a>
-                                    <a class="animated default-btn btn-white-color" href="contact.html">CONTACT US</a>
+                                    <a class="animated default-btn btn-green-color" href="{{ route('admission')}}">Admission</a>
+                                    <a class="animated default-btn btn-white-color" href="{{ route('contact')}}">Contactez-nous</a>
                                 </div>
                             </div>
                         </div>
