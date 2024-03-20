@@ -209,6 +209,7 @@
                             <div class="over-view-content">
                                 <h4>Année scolaire 2022 - 2023</h4>
                                 <div class="row">
+                                    @if(env('APP_VILLE') !== "Pointe-Noire")
                                     <div class="col-md-6">
                                         <h5>Frais Mensuels UHL Brazzaville</h5>
                                         <div class="over-view-list">
@@ -278,6 +279,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @else
                                     <div class="col-md-6">
                                         <h5>Frais Mensuels UHL Pointe-Noire</h5>
                                         <div class="over-view-list">
@@ -347,6 +349,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>

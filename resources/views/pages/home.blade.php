@@ -148,7 +148,7 @@
     <div class="achievement-area pt-130 pb-115">
         <div class="container">
             <div class="section-title mb-75">
-                <h2>Statistiques 2021 <span>D'UHL Brazzaville</span></h2>
+                <h2>Statistiques 2022 <span>D'UHL</span></h2>
                 <p>Voici quelque listing de nos statistiques et de nos appréciations tant localement et internationalement.</p>
             </div>
             <div class="row">
